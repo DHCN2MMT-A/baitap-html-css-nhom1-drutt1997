@@ -1,0 +1,59 @@
+nav {
+    background-color: bisque;
+    width: 100%;
+    padding: 27px;
+}
+ul {
+    padding-left: 600px;
+    margin: -8px;
+    font-size: larger;
+}
+nav ul a:hover {
+    color: red;
+}
+nav ul a{
+    text-decoration-line: none;
+}
+h1 {
+    text-align: center;
+    color: crimson;
+}
+div #gioithieu p {
+    text-align: center;
+    color: darkblue;
+}
+table {
+    text-align: start;
+    border: aqua;
+    color: white;
+}
+div#Contact {
+    background-color: black;
+    color: white;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    grid-template-areas: 
+    ".gioithieu watchus."
+    ".food food."
+    ".about about.";
+}
+#gioithieu{
+    grid-area: gioithieu;
+}
+#watchus{
+    grid-area: watchus;
+}
+#food{
+    grid-area: food;
+}
+#about{
+    grid-area: about;
+}
+img {
+    width: 517px;
+    height: 157px;
+    padding-left:250px;
+}
